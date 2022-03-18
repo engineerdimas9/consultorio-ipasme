@@ -4,10 +4,7 @@
   "description": "Sistema Api para administrar consultorios medicos.",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon --exec npx babel-node --ignore db.json src/index.js",
-    "build": "babel src --out-dir build",
-    "start": "node build/index.js",
-    "test": "jest"
+    "start": "node build/index.js"    
   },
   "keywords": [],
   "author": "BlueNetwork",
